@@ -27,13 +27,10 @@ tasks {
         // JUnit 5 support
         useJUnitPlatform()
     }
-    shadowJar {
-        dependsOn("MainKt")
-    }
 }
 
 application {
-    mainClass.set("MainKt")
+    mainClass.set("no.nav.tiltakspenger.ytelser.AppKt")
 }
 
 java {

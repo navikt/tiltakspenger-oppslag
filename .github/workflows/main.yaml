@@ -4,7 +4,7 @@ on:
     branches:
     - "main"
 env:
-  "IMAGE": "ghcr.io/navikt/tiltakspenger-oppslag:${{ github.sha }}"
+  "IMAGE": "ghcr.io/navikt/tiltakspenger-ytelser:${{ github.sha }}"
 jobs:
   "build":
     name: "build"
