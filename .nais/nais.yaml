@@ -6,7 +6,7 @@ metadata:
   labels:
     "team": "tpts"
 spec:
-  image: ghcr.io/navikt/tiltakspenger-oppslag:{{version}}
+  image: {{ image }}
   port: 8080
   ingresses:
     - https://tiltakspenger-oppslag.dev.intern.nav.no
